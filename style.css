@@ -1,0 +1,144 @@
+*{
+font-family: 'inter';
+margin: 0px;
+}
+
+#Logo{
+margin-top: 52px;
+margin-left: 56px;
+width: 125px;
+height: 62px;
+}
+
+#Titulo{
+    margin-top: 71px;
+    margin-left: 172px;
+    width: 536px;
+    height: 102px;
+    font-weight: 400;
+    size: 40px;
+    line-height: 51.4px;
+}
+
+#texto-1{
+    margin-top: 32px;
+    margin-left: 172px;
+    width: 536px;
+    height: 90px;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+    padding-bottom: 151px;       
+}
+
+#menu-superior{
+background-color: black;
+background-image: url(Imagens/fundo-superior.svg);
+color: aliceblue;
+}
+
+#menu-informacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+}
+.icone{
+margin: 50px 0px 50px 100px;
+padding: 25px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#seção-video{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+
+#video2{
+    margin: 117px -63px 80px -300px;
+}
+
+#Video{
+    
+    margin: 89px -63px 80px 174px;
+
+}
+#titulo-video{
+    color: #247BA0;
+}
+#texto-video{
+    font-size: 16;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 80px;
+}
+#titulo-carrossel{
+    text-align: center;
+    color: aliceblue;
+    margin-top: -10px;
+}
+#imagens-carrossel{
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.cards{
+    margin-right: 50px;   
+    margin-top: 75px;
+}
+#samantha{
+    display: none;
+}
+.setas{
+    display:flex;
+    margin-top: 100%;
+    margin-left: -50px;
+    cursor: pointer;    
+}
+#seta-esquerda{
+    display: none;
+    margin-top: 115%;
+}
+.setas:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+}
+#parte-final{
+    text-align: center;
+
+}
+#titulo-final{
+    margin: 30px;
+    color: #383838;
+}
+input{
+    height: 53px;
+    width: 413px;
+    margin: 20px;
+    border: 0px;
+    background-color: #eaece5;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+button{
+    height: 53px;
+    width: 335px;
+    background-color: #247BA0;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #383838;
+}
